@@ -2,6 +2,7 @@
 
 import ProductModel from "../models/product.model.js";
 import CartModel from "../models/cart.model.js";
+import cartModel from "../models/cart.model.js";
 
 class CartDao {
   async getById(id) {
@@ -40,11 +41,8 @@ class CartDao {
     return cartUpdate;
   }
 
-  async update(cid, data) {
-    await CartModel.updateOne({_id: cid}, { $set: { products: []}});
-    await CartModel.updateOne({_id: cid}, { $set: { products: data}});
-    const cart = await CartModel.findById(cid);
-    return cart;
+  async update(query, data) {
+    return await cartModel.findOneAndUpdate(query, data, { new: true})
   }
 
   async updateQuantityProductInCart(cid, pid, quantity) {

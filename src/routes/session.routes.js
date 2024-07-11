@@ -75,15 +75,6 @@ router.post("/jwt", userLoginValidator, async (req, res) => {
 
 
 
-/* router.get("/current", passportCall("jwt"), authorization("user"), (req, res) => {
-  try {
-
-    return res.status(200).json({ status: "success", payload: req.user });
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ status: "Error", msg: "Internal Server Error" });
-  }
-}); */
 
 router.get('/current', passportCall('jwt'), authorization('user'), (req, res) => {
   console.log('Cookies in request:', req.cookies); // Verifica las cookies en la solicitud
