@@ -2,7 +2,7 @@
 
 import ProductModel from "../models/product.model.js";
 import CartModel from "../models/cart.model.js";
-import cartModel from "../models/cart.model.js";
+
 
 class CartDao {
   async getById(id) {

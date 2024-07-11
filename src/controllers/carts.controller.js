@@ -1,5 +1,4 @@
-import cartDao from "../dao/mongoDao/cart.dao";
-import CartService from "../service/carts.services";
+import cartDao from "../dao/mongoDao/cart.dao.js";
 
 class CartController {
     static async createCart(req, res) {
