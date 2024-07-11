@@ -5,6 +5,9 @@ import session from "express-session"
 import MongoStore from "connect-mongo"
 import passport from "passport";
 import initializePassport from "./config/passport.config.js"
+import cookieParser from "cookie-parser";
+import envs from "./config/env.config.js"
+
 
 connectMongoDB();
 
@@ -15,12 +18,13 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cookieParser(envs.CODE_SECRET));
 app.use(session({
   store: MongoStore.create({
-    mongoUrl: "mongodb+srv://Admin:Admin123456@codercluster.y7pmtd1.mongodb.net/ecomerce",
+    mongoUrl: envs.MONGO_URL,
     ttl: 15
   }),
-  secret: "CodigoSecreto",
+  secret: envs.CODE_SECRET,
   resave: true,
   saveUninitialized: true,
 }))
@@ -33,6 +37,6 @@ app.use("/api", router);
 
 
 
-app.listen(8088, () => {
-  console.log("Servidor listo en puerto 8088");
+app.listen(envs.PORT, () => {
+  console.log(`Servidor listo en puerto ${envs.PORT}`);
 });

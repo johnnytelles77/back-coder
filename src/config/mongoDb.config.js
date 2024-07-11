@@ -1,12 +1,11 @@
 import mongoose from "mongoose"
-
-const urlDb = "mongodb+srv://Admin:Admin123456@codercluster.y7pmtd1.mongodb.net/ecomerce"
+import envs from "./env.config.js"
 
 
 export const connectMongoDB = async () =>{
     try {
         ///conexion con la base de datos direecion de la api
-        mongoose.connect(urlDb)
+        mongoose.connect(envs.MONGO_URL)
         console.log("Mongo DB Conectado")
     } catch (error) {
         console.log(error)
