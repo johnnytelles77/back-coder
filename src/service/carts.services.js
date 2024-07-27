@@ -1,49 +1,28 @@
-import cartDao from "../dao/mongoDao/cart.dao.js";
-import productDao from "../dao/mongoDao/product.dao.js";
+import CartsRepository from "../persistences/mongo/repositories/carts.repository.js";
 
 class CartService {
     static async createCart() {
-        return await cartDao.create();
-
+        return await CartsRepository.create();
     }
 
     static async addProductToCart(cid, pid) {
-        const product = await productDao.getById(pid);
-        const cart = await cartDao.getById(cid)
-
-        const productInCart = await cartDao.update({ _id: cid, "products.product": pid }, { $inc: { "products.$.quantity": 1 } })
-        if (!productInCart) {
-            return await cartDao.update({ _id: cid }, { $push: { products: { product: pid, quantity: 1 } } })
-        }
-        return productInCart
+        return await CartsRepository.addProductToCart(cid, pid);
     }
 
     static async getCartById(id) {
-        return await cartDao.getById(id);
+        return await CartsRepository.getById(id)
     }
 
     static async deleteProductInCart(cid, pid) {
-        const product = await productDao.getById(pid);
-        const cart = await cartDao.getById(cid)
-
-        return await cartDao.update({ _id: cid, "products.product": pid }, { $inc: { "products.$.quantity": -1 } })
-
-    }
-
-    static async cartUpdate(query, data) {
-        return await cartDao.update(query, data)
+        return await CartsRepository.deleteProductInCart(cid, pid);
     }
 
     static async updateQuantityProductInCart(cid, pid, quantity) {
-        const product = await productDao.getById(pid);
-        const cart = await cartDao.getById(cid)
-
-        return await cartDao.update({ _id: cid, "products.product": pid }, { $set: { "products.$.quantity": quantity } })
+        return await CartsRepository.updateQuantityProductInCart(cid, pid, quantity)
     }
 
     static async deleteAllProductsInCart(cid) {
-        return await cartDao.update({ _id: cid }, { $set: { product: [] } })
-
+        return await CartsRepository.deleteAllProductsInCart(cid);
     }
 }
 

@@ -7,6 +7,7 @@ import passport from "passport";
 import initializePassport from "./config/passport.config.js"
 import cookieParser from "cookie-parser";
 import envs from "./config/env.config.js"
+import cors from "cors"
 
 
 connectMongoDB();
@@ -31,6 +32,7 @@ app.use(session({
 app.use(passport.initialize())
 app.use(passport.session())
 initializePassport();
+app.use(cors());
 
 app.use("/api", router);
 

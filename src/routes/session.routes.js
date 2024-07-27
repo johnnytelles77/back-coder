@@ -1,94 +1,44 @@
-import { Router } from "express"
-import userDao from "../dao/mongoDao/user.dao.js"
-import { createHash, isValidPassword } from "../utils/hasPassword.js";
+import { Router } from "express";
 import passport from "passport";
-import { createToken, verifyToken } from "../utils/jwt.js";
-import  { userLoginValidator } from "../validators/userLogin.validator.js";
+import SessionController from "../controllers/session.controllers.js";
 import { authorization, passportCall } from "../middlewares/passport.middleware.js";
+import Mails from "../utils/sendMails.js";
+import SMS from "../utils/sendSMS.js";
 
 
 const router = Router();
 
-router.post("/register", passport.authenticate("register"), async (req, res) => {
-  try {
-    res.status(201).json({ status: "success", msg: "Usuario Creado" });
+router.post("/register", passport.authenticate("register"), SessionController.register )
 
-  } catch (error) {
-    console.log(error);
-    return res.status(500).json({ error: "Error interno del servidor" });
+router.post("/login", passportCall("login"), SessionController.login );
 
-  }
-})
-
-
-router.post("/login", passport.authenticate("login"), async (req, res) => {
-  try {
-    return res.status(200).json({ status: "success", payload: req.user });
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ status: "Error", msg: "Internal Server Error" });
-  }
-});
-
+router.get('/current', passportCall('jwt'), authorization('user'), SessionController.current );
 
 router.get("/login", passport.authenticate("google", {
   scope: ["https://www.googleapis.com/auth/userinfo.email", "https://www.googleapis.com/auth/userinfo.profile"],
   session: false
-}), async (req, res) => {
-  try {
-    return res.status(200).json({ status: "success", payload: req.user });
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ status: "Error", msg: "Internal Server Error" });
-  }
+}), SessionController.loginGoogle);
+
+router.get("/logout", SessionController.logout );
+
+router.get("/email", async (req, res) => {
+  const { name } = req.body;
+  const template = `<div>
+  <h1> Bienvenidos ${name} a nuestra App </h1>
+  <img src="cid:lipstick" />
+</div>`
+  await Mails.sendMail("danielparamo777@gmail.com", "Test nodemiler", "Este es un mensaje de prueba", template);
+  return res.status(200).json({status: "Ok", msg: "Email Mandado"})
 });
 
 
-router.get("/logout", async (req, res) => {
-  try {
-    req.session.destroy();
+router.get("/sms", async (req, res) => {
 
-    res.status(200).json({ status: "success", msg: "Sesión cerrada con éxito" });
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ status: "Error", msg: "Internal Server Error" });
-  }
-});
+  await SMS.sendSMS("9199855702", "Hola a todos");
 
+  return res.status(200).json({status: "Ok", msg: "Mensaje enviado"})
 
-router.post("/jwt", userLoginValidator, async (req, res) => {
-  try {
-    const { email, password } = req.body;
-
-    const user = await userDao.getByEmail(email);
-    if (!user || !isValidPassword(user, password)) return res.status(401).json({ status: "error", msg: "usuario o contraseña no válido" });
-
-    const token = createToken(user);
-  // Guardamos el token en una cookie
-    res.cookie("token", token, { httpOnly: true });
-    return res.status(200).json({ status: "success", payload: user, token });
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ status: "Error", msg: "Internal Server Error" });
-  }
-});
-
-
-
-
-router.get('/current', passportCall('jwt'), authorization('user'), (req, res) => {
-  console.log('Cookies in request:', req.cookies); // Verifica las cookies en la solicitud
-  try {
-    return res.status(200).json({ status: 'success', payload: req.user });
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ status: 'Error', msg: 'Internal Server Error' });
-  }
-});
-
-
-
-
+})
 
 
 export default router; 
