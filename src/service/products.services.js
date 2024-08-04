@@ -1,5 +1,6 @@
 import { productResponseDto } from "../dto/product-response.dto.js";
 import ProductRepository from "../persistences/mongo/repositories/products.repository.js";
+import ErrorHandler from "../errors/customErrors.js";
 
 class ProductService {
     static async getAll(query, options) {
@@ -9,6 +10,7 @@ class ProductService {
 
     static async getById(id) {
         const productData = await ProductRepository.getById(id);
+        if(!productData) throw ErrorHandler.notFoundError(`Product id ${id} not found`);
         const product = productResponseDto(productData)
         return product;
     }

@@ -8,6 +8,7 @@ import initializePassport from "./config/passport.config.js"
 import cookieParser from "cookie-parser";
 import envs from "./config/env.config.js"
 import cors from "cors"
+import Errors from "./errors/errorHandle.js";
 
 
 connectMongoDB();
@@ -16,6 +17,8 @@ connectMongoDB();
 const app = express();
 
 /// Middlewares
+
+
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -35,6 +38,8 @@ initializePassport();
 app.use(cors());
 
 app.use("/api", router);
+
+app.use(Errors.errorHandle);
 
 
 

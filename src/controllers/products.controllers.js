@@ -33,18 +33,14 @@ class ProductController {
         }
     }
 
-    static async getById(req, res) {
+    static async getById(req, res, next) {
         try {
             const { pid } = req.params;
-            console.log(`Obteniendo producto con ID: ${pid}`);
-
             const product = await ProductService.getById(pid);
-            if (!product) return res.status(404).json({ status: "Error", msg: `Producto con el id ${pid} no encontrado` });
-
             res.status(200).json({ status: "success", payload: product });
         } catch (error) {
-            console.error(`Error al obtener producto con ID ${pid}:`, error);
-            res.status(500).json({ error: "Error interno del servidor" });
+            console.log( error);
+            next(error);
         }
     }
 
