@@ -8,7 +8,7 @@ const router = Router();
 
 router.get("/productsmock", async (req, res) => {
   try {
-      const products = await ProductMock.generateProductMock(10); // Espera a que los productos se generen
+      const products = await ProductMock.generateProductMock(100); // Espera a que los productos se generen
       return res.status(200).json({ status: "Ok", products });
   } catch (error) {
       return res.status(500).json({ status: "Error", error: error.message });
