@@ -1,0 +1,145 @@
+
+2024-08-10 13:31:53 info: Mongo DB Conectado
+2024-08-10 13:31:53 info: Servidor listo en puerto 8088
+2024-08-10 13:32:02 info: Mongo DB Conectado
+2024-08-10 13:32:02 info: 
+2024-08-10 13:32:05 info: Mongo DB Conectado
+2024-08-10 13:32:25 info: Mongo DB Conectado
+2024-08-10 13:32:25 info: Servidor listo en puerto 8088
+2024-08-10 13:43:46 info: Mongo DB Conectado
+2024-08-10 13:43:46 info: Servidor listo en puerto 8088
+2024-08-10 13:43:49 info: Mongo DB Conectado
+2024-08-10 13:43:49 info: Servidor listo en puerto 8088
+2024-08-10 13:43:51 info: Mongo DB Conectado
+2024-08-10 13:43:51 info: Servidor listo en puerto 8088
+2024-08-10 13:43:54 info: Mongo DB Conectado
+2024-08-10 13:43:54 info: Servidor listo en puerto 8088
+2024-08-10 13:43:56 info: Mongo DB Conectado
+2024-08-10 13:43:56 info: Servidor listo en puerto 8088
+2024-08-10 13:43:59 info: Mongo DB Conectado
+2024-08-10 13:43:59 info: Servidor listo en puerto 8088
+2024-08-10 13:44:06 info: Mongo DB Conectado
+2024-08-10 13:44:06 info: Servidor listo en puerto 8088
+2024-08-10 13:44:09 info: Mongo DB Conectado
+2024-08-10 13:44:09 info: Servidor listo en puerto 8088
+2024-08-10 13:44:15 info: Mongo DB Conectado
+2024-08-10 13:44:15 info: Servidor listo en puerto 8088
+2024-08-10 13:44:24 error: undefined
+2024-08-10 13:44:50 info: Mongo DB Conectado
+2024-08-10 13:44:50 info: Servidor listo en puerto 8088
+2024-08-10 13:44:53 error: undefined
+2024-08-10 13:45:12 info: Mongo DB Conectado
+2024-08-10 13:45:12 info: Servidor listo en puerto 8088
+2024-08-10 13:45:13 error: Product id 66434045700c9e3a6cdbe7b9 not found
+2024-08-10 13:46:21 error: Cast to ObjectId failed for value "66434045700c9e3a6cdbe7b89" (type string) at path "_id" for model "products"
+2024-08-10 13:48:05 info: Mongo DB Conectado
+2024-08-10 13:48:05 info: Servidor listo en puerto 8088
+2024-08-10 13:48:08 info: Mongo DB Conectado
+2024-08-10 13:48:08 info: Servidor listo en puerto 8088
+2024-08-10 13:48:59 info: Mongo DB Conectado
+2024-08-10 13:48:59 info: Servidor listo en puerto 8088
+2024-08-10 13:49:00 info: Mongo DB Conectado
+2024-08-10 13:49:00 info: Servidor listo en puerto 8088
+2024-08-10 13:49:29 info: Mongo DB Conectado
+2024-08-10 13:49:29 info: Servidor listo en puerto 8088
+2024-08-10 13:49:35 info: Mongo DB Conectado
+2024-08-10 13:49:35 info: Servidor listo en puerto 8088
+2024-08-10 13:49:40 info: Mongo DB Conectado
+2024-08-10 13:49:40 info: Servidor listo en puerto 8088
+2024-08-10 13:50:05 info: Mongo DB Conectado
+2024-08-10 13:50:06 info: Servidor listo en puerto 8088
+2024-08-10 13:50:22 error: Internal Server Error
+2024-08-10 13:51:16 info: Mongo DB Conectado
+2024-08-10 13:51:16 info: Servidor listo en puerto 8088
+2024-08-10 13:51:22 info: Mongo DB Conectado
+2024-08-10 13:51:22 info: Servidor listo en puerto 8088
+2024-08-10 13:51:23 info: Mongo DB Conectado
+2024-08-10 13:51:23 info: Servidor listo en puerto 8088
+2024-08-10 13:51:25 error: Cast to ObjectId failed for value "66434045700c9e3a6cdbe7b89" (type string) at path "_id" for model "products"
+2024-08-10 13:58:41 info: Mongo DB Conectado
+2024-08-10 13:58:41 info: Servidor listo en puerto 8088
+2024-08-10 13:58:46 info: Mongo DB Conectado
+2024-08-10 13:58:46 info: Servidor listo en puerto 8088
+2024-08-10 13:58:52 info: Mongo DB Conectado
+2024-08-10 13:58:52 info: Servidor listo en puerto 8088
+2024-08-10 13:58:55 info: Mongo DB Conectado
+2024-08-10 13:58:55 info: Servidor listo en puerto 8088
+2024-08-10 13:58:58 info: Mongo DB Conectado
+2024-08-10 13:58:58 info: Servidor listo en puerto 8088
+2024-08-10 13:59:02 info: Mongo DB Conectado
+2024-08-10 13:59:02 info: Servidor listo en puerto 8088
+2024-08-10 13:59:04 info: Mongo DB Conectado
+2024-08-10 13:59:04 info: Servidor listo en puerto 8088
+2024-08-10 13:59:07 info: Mongo DB Conectado
+2024-08-10 13:59:07 info: Servidor listo en puerto 8088
+2024-08-10 13:59:09 info: Mongo DB Conectado
+2024-08-10 13:59:09 info: Servidor listo en puerto 8088
+2024-08-10 13:59:13 info: Mongo DB Conectado
+2024-08-10 13:59:13 info: Servidor listo en puerto 8088
+2024-08-10 13:59:15 info: Mongo DB Conectado
+2024-08-10 13:59:15 info: Servidor listo en puerto 8088
+2024-08-10 13:59:16 info: Mongo DB Conectado
+2024-08-10 13:59:16 info: Servidor listo en puerto 8088
+2024-08-10 13:59:18 info: Mongo DB Conectado
+2024-08-10 13:59:18 info: Servidor listo en puerto 8088
+2024-08-10 14:00:32 info: Mongo DB Conectado
+2024-08-10 14:00:32 info: Servidor listo en puerto 8088
+2024-08-10 14:00:33 error: Cast to ObjectId failed for value "66434045700c9e3a6cdbe7b89" (type string) at path "_id" for model "products"
+2024-08-13 15:03:02 info: Mongo DB Conectado
+2024-08-13 15:03:02 info: Servidor listo en puerto 8088
+2024-08-13 15:29:38 info: Mongo DB Conectado
+2024-08-13 15:29:38 info: Servidor listo en puerto 8088
+2024-08-13 15:29:42 info: Mongo DB Conectado
+2024-08-13 15:29:42 info: Servidor listo en puerto 8088
+2024-08-13 15:29:45 info: Mongo DB Conectado
+2024-08-13 15:29:45 info: Servidor listo en puerto 8088
+2024-08-13 15:29:48 info: Mongo DB Conectado
+2024-08-13 15:29:48 info: Servidor listo en puerto 8088
+2024-08-13 15:30:57 info: Mongo DB Conectado
+2024-08-13 15:30:57 info: Servidor listo en puerto 8088
+2024-08-13 15:31:03 info: Mongo DB Conectado
+2024-08-13 15:31:03 info: Servidor listo en puerto 8088
+2024-08-13 15:31:04 info: Mongo DB Conectado
+2024-08-13 15:31:04 info: Servidor listo en puerto 8088
+2024-08-13 15:31:12 info: Mongo DB Conectado
+2024-08-13 15:31:12 info: Servidor listo en puerto 8088
+2024-08-13 15:31:58 info: Mongo DB Conectado
+2024-08-13 15:31:58 info: Servidor listo en puerto 8088
+2024-08-13 15:32:01 info: Mongo DB Conectado
+2024-08-13 15:32:01 info: Servidor listo en puerto 8088
+2024-08-13 15:32:03 info: Mongo DB Conectado
+2024-08-13 15:32:03 info: Servidor listo en puerto 8088
+2024-08-13 15:32:13 info: Mongo DB Conectado
+2024-08-13 15:32:13 info: Servidor listo en puerto 8088
+2024-08-13 15:32:23 info: Mongo DB Conectado
+2024-08-13 15:32:23 info: Servidor listo en puerto 8088
+2024-08-13 15:32:24 info: Mongo DB Conectado
+2024-08-13 15:32:24 info: Servidor listo en puerto 8088
+2024-08-13 15:32:39 info: Mongo DB Conectado
+2024-08-13 15:32:39 info: Servidor listo en puerto 8088
+2024-08-13 15:32:44 info: Mongo DB Conectado
+2024-08-13 15:32:44 info: Servidor listo en puerto 8088
+2024-08-13 15:32:45 info: Mongo DB Conectado
+2024-08-13 15:32:45 info: Servidor listo en puerto 8088
+2024-08-13 15:32:48 info: Mongo DB Conectado
+2024-08-13 15:32:48 info: Servidor listo en puerto 8088
+2024-08-13 15:37:29 info: Mongo DB Conectado
+2024-08-13 15:37:29 info: Servidor listo en puerto 8088
+2024-08-13 15:37:34 info: Mongo DB Conectado
+2024-08-13 15:37:34 info: Servidor listo en puerto 8088
+2024-08-13 15:37:38 info: Mongo DB Conectado
+2024-08-13 15:37:38 info: Servidor listo en puerto 8088
+2024-08-13 15:37:47 info: Mongo DB Conectado
+2024-08-13 15:37:47 info: Servidor listo en puerto 8088
+2024-08-13 15:37:50 info: Mongo DB Conectado
+2024-08-13 15:37:50 info: Servidor listo en puerto 8088
+2024-08-13 15:38:04 info: Mongo DB Conectado
+2024-08-13 15:38:04 info: Servidor listo en puerto 8088
+2024-08-13 15:38:06 info: Mongo DB Conectado
+2024-08-13 15:38:06 info: Servidor listo en puerto 8088
+2024-08-13 15:41:36 info: Mongo DB Conectado
+2024-08-13 15:41:36 info: Servidor listo en puerto 8088
+2024-08-13 15:52:57 info: Mongo DB Conectado
+2024-08-13 15:52:57 info: Servidor listo en puerto 8088
+2024-08-14 13:27:38 info: Mongo DB Conectado
+2024-08-14 13:27:38 info: Servidor listo en puerto 8088

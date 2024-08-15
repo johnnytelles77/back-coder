@@ -9,6 +9,7 @@ import cookieParser from "cookie-parser";
 import envs from "./config/env.config.js"
 import cors from "cors"
 import Errors from "./errors/errorHandle.js";
+import { logger } from "./utils/logger.js";
 
 
 connectMongoDB();
@@ -39,11 +40,35 @@ app.use(cors());
 
 app.use("/api", router);
 
+app.get("/operacionsensilla", (req, res) => {
+  let sum = 0;
+  for(let i = 0; i <100000; i++) {
+    sum += i;
+  }
+
+  res.send({sum})
+})
+
+app.get("/operacioncompleja", (req, res) => {
+  let sum = 0;
+  for(let i = 0; i < 5e8; i++) {
+    sum += i;
+  }
+
+  res.send({sum})
+})
+
+
+
 app.use(Errors.errorHandle);
 
 
 
 
 app.listen(envs.PORT, () => {
-  console.log(`Servidor listo en puerto ${envs.PORT}`);
+/*   console.log(`Servidor listo en puerto ${envs.PORT}`); */
+  logger.log("info", `Servidor listo en puerto ${envs.PORT}`)
+/*   logger.error("se cayo el servidor")
+  logger.warn("se cayo el servidor")
+  logger.http("/GE") */
 });
