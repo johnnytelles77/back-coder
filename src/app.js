@@ -66,9 +66,9 @@ app.use(Errors.errorHandle);
 
 
 app.listen(envs.PORT, () => {
-/*   console.log(`Servidor listo en puerto ${envs.PORT}`); */
   logger.log("info", `Servidor listo en puerto ${envs.PORT}`)
-/*   logger.error("se cayo el servidor")
-  logger.warn("se cayo el servidor")
-  logger.http("/GE") */
+  logger.info
+  logger.warn
+  logger.error
+  logger.http
 });

@@ -1,5 +1,7 @@
 import { userResponseDto } from "../dto/user-response.dto.js";
 import { createToken } from "../utils/jwt.js"
+import { logger } from "../utils/logger.js";
+
 
 
 
@@ -9,7 +11,7 @@ class SessionController {
             res.status(201).json({ status: "success", msg: "Usuario Creado" });
 
         } catch (error) {
-            console.log(error);
+           /*  logger.log(error); */
             return res.status(500).json({ error: "Error interno del servidor" });
 
         }
@@ -24,7 +26,7 @@ class SessionController {
             const userDto = userResponseDto(user);
             return res.status(200).json({ status: "success", payload: userDto, token });
         } catch (error) {
-            console.log(error);
+           /*  logger.log(error); */
             res.status(500).json({ status: "Error", msg: "Internal Server Error" });
         }
     }
@@ -34,7 +36,7 @@ class SessionController {
             const user = userResponseDto(req.user);
             return res.status(200).json({ status: 'success', payload: user });
         } catch (error) {
-            console.log(error);
+           /*  logger.log(error); */
             res.status(500).json({ status: 'Error', msg: 'Internal Server Error' });
         }
     }
@@ -43,7 +45,7 @@ class SessionController {
         try {
             return res.status(200).json({ status: "success", payload: req.user });
         } catch (error) {
-            console.log(error);
+           /*  logger.log(error); */
             res.status(500).json({ status: "Error", msg: "Internal Server Error" });
         }
     }
@@ -54,7 +56,7 @@ class SessionController {
 
             res.status(200).json({ status: "success", msg: "Sesión cerrada con éxito" });
         } catch (error) {
-            console.log(error);
+           /*  logger.log(error); */
             res.status(500).json({ status: "Error", msg: "Internal Server Error" });
         }
     }

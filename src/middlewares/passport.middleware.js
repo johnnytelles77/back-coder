@@ -1,12 +1,13 @@
 import { request, response } from "express";
 import passport from "passport";
+import { logger } from "../utils/logger.js"
 
 export const passportCall = (strategy) => {
   return async (req = request, res = response, next) => {
     passport.authenticate(strategy, { session: false }, (error, user, info) => {
       if (error) return next(error);
       if (!user) return res.status(401).json({ status: "error", msg: info.message ? info.message : info.toString() });
-      console.error("Authentication error:", error);
+      logger.error("Authentication error:", error);
       req.user = user;
 
       next();

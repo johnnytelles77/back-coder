@@ -35,6 +35,11 @@ class CartsRepository {
         const cart = await CartModel.findByIdAndUpdate(cid, { $set: { products: [] } }, { new: true });
         return cart;
     }
+
+    static async updateCart(cid, products) {
+        const cart = await CartModel.findByIdAndUpdate(cid, {$set: {products}}, {new: true})
+        return cart;
+    }
 }
 
 export default CartsRepository;

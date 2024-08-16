@@ -143,3 +143,697 @@
 2024-08-13 15:52:57 info: Servidor listo en puerto 8088
 2024-08-14 13:27:38 info: Mongo DB Conectado
 2024-08-14 13:27:38 info: Servidor listo en puerto 8088
+2024-08-14 21:30:43 info: Mongo DB Conectado
+2024-08-14 21:30:43 info: Servidor listo en puerto 8088
+2024-08-14 21:30:47 info: Mongo DB Conectado
+2024-08-14 21:30:47 info: Servidor listo en puerto 8088
+2024-08-14 21:30:51 info: Mongo DB Conectado
+2024-08-14 21:30:51 info: Servidor listo en puerto 8088
+2024-08-14 21:30:53 info: Mongo DB Conectado
+2024-08-14 21:30:53 info: Servidor listo en puerto 8088
+2024-08-14 21:31:25 info: Mongo DB Conectado
+2024-08-14 21:31:25 info: Servidor listo en puerto 8088
+2024-08-14 21:31:29 info: Mongo DB Conectado
+2024-08-14 21:31:29 info: Servidor listo en puerto 8088
+2024-08-14 21:31:31 info: Mongo DB Conectado
+2024-08-14 21:31:31 info: Servidor listo en puerto 8088
+2024-08-14 21:31:40 info: Mongo DB Conectado
+2024-08-14 21:31:40 info: Servidor listo en puerto 8088
+2024-08-14 21:31:43 info: Mongo DB Conectado
+2024-08-14 21:31:43 info: Servidor listo en puerto 8088
+2024-08-14 21:31:50 info: Mongo DB Conectado
+2024-08-14 21:31:50 info: Servidor listo en puerto 8088
+2024-08-14 21:31:53 info: Mongo DB Conectado
+2024-08-14 21:31:53 info: Servidor listo en puerto 8088
+2024-08-14 21:32:02 info: Mongo DB Conectado
+2024-08-14 21:32:02 info: Servidor listo en puerto 8088
+2024-08-14 21:32:06 info: Mongo DB Conectado
+2024-08-14 21:32:06 info: Servidor listo en puerto 8088
+2024-08-14 21:34:19 info: Mongo DB Conectado
+2024-08-14 21:34:19 info: Servidor listo en puerto 8088
+2024-08-14 22:54:08 info: Mongo DB Conectado
+2024-08-14 22:54:08 info: Servidor listo en puerto 8088
+2024-08-14 22:54:11 info: Mongo DB Conectado
+2024-08-14 22:54:11 info: Servidor listo en puerto 8088
+2024-08-14 22:54:15 info: Mongo DB Conectado
+2024-08-14 22:54:15 info: Servidor listo en puerto 8088
+2024-08-14 22:54:33 info: Mongo DB Conectado
+2024-08-14 22:54:33 info: Servidor listo en puerto 8088
+2024-08-14 22:54:37 info: Mongo DB Conectado
+2024-08-14 22:54:37 info: Servidor listo en puerto 8088
+2024-08-14 22:54:50 info: Mongo DB Conectado
+2024-08-14 22:54:50 info: Servidor listo en puerto 8088
+2024-08-14 22:55:08 info: Mongo DB Conectado
+2024-08-14 22:55:08 info: Servidor listo en puerto 8088
+2024-08-15 09:05:22 error: Cast to ObjectId failed for value "66434045700c9e3a6cdbe7b89" (type string) at path "_id" for model "products"
+2024-08-15 13:01:28 info: Mongo DB Conectado
+2024-08-15 13:01:28 info: Servidor listo en puerto 8088
+2024-08-15 13:04:54 info: Mongo DB Conectado
+2024-08-15 13:04:54 info: Servidor listo en puerto 8088
+2024-08-15 13:04:59 info: Mongo DB Conectado
+2024-08-15 13:04:59 info: Servidor listo en puerto 8088
+2024-08-15 13:05:07 info: Mongo DB Conectado
+2024-08-15 13:05:07 info: Servidor listo en puerto 8088
+2024-08-15 13:05:22 info: Mongo DB Conectado
+2024-08-15 13:05:22 info: Servidor listo en puerto 8088
+2024-08-15 13:05:36 info: Mongo DB Conectado
+2024-08-15 13:05:36 info: Servidor listo en puerto 8088
+2024-08-15 13:05:37 info: Mongo DB Conectado
+2024-08-15 13:05:37 info: Servidor listo en puerto 8088
+2024-08-15 13:05:48 info: Mongo DB Conectado
+2024-08-15 13:05:48 info: Servidor listo en puerto 8088
+2024-08-15 13:05:51 info: Mongo DB Conectado
+2024-08-15 13:05:51 info: Servidor listo en puerto 8088
+2024-08-15 13:05:54 info: Mongo DB Conectado
+2024-08-15 13:05:54 info: Servidor listo en puerto 8088
+2024-08-15 13:05:55 info: Mongo DB Conectado
+2024-08-15 13:05:55 info: Servidor listo en puerto 8088
+2024-08-15 13:06:01 info: Mongo DB Conectado
+2024-08-15 13:06:01 info: Servidor listo en puerto 8088
+2024-08-15 13:06:03 info: Mongo DB Conectado
+2024-08-15 13:06:03 info: Servidor listo en puerto 8088
+2024-08-15 13:06:06 info: Mongo DB Conectado
+2024-08-15 13:06:06 info: Servidor listo en puerto 8088
+2024-08-15 13:06:14 info: Mongo DB Conectado
+2024-08-15 13:06:14 info: Servidor listo en puerto 8088
+2024-08-15 13:06:18 info: Mongo DB Conectado
+2024-08-15 13:06:18 info: Servidor listo en puerto 8088
+2024-08-15 13:06:22 info: Mongo DB Conectado
+2024-08-15 13:06:22 info: Servidor listo en puerto 8088
+2024-08-15 13:06:27 info: Mongo DB Conectado
+2024-08-15 13:06:27 info: Servidor listo en puerto 8088
+2024-08-15 13:06:31 info: Mongo DB Conectado
+2024-08-15 13:06:31 info: Servidor listo en puerto 8088
+2024-08-15 13:06:32 info: Mongo DB Conectado
+2024-08-15 13:06:32 info: Servidor listo en puerto 8088
+2024-08-15 13:06:35 info: Mongo DB Conectado
+2024-08-15 13:06:35 info: Servidor listo en puerto 8088
+2024-08-15 13:06:41 info: Mongo DB Conectado
+2024-08-15 13:06:41 info: Servidor listo en puerto 8088
+2024-08-15 13:06:46 info: Mongo DB Conectado
+2024-08-15 13:06:46 info: Servidor listo en puerto 8088
+2024-08-15 13:06:48 info: Mongo DB Conectado
+2024-08-15 13:06:48 info: Servidor listo en puerto 8088
+2024-08-15 13:06:49 info: Mongo DB Conectado
+2024-08-15 13:06:49 info: Servidor listo en puerto 8088
+2024-08-15 13:06:59 info: Mongo DB Conectado
+2024-08-15 13:06:59 info: Servidor listo en puerto 8088
+2024-08-15 13:07:07 info: Mongo DB Conectado
+2024-08-15 13:07:07 info: Servidor listo en puerto 8088
+2024-08-15 13:07:08 info: Mongo DB Conectado
+2024-08-15 13:07:08 info: Servidor listo en puerto 8088
+2024-08-15 13:07:09 info: Mongo DB Conectado
+2024-08-15 13:07:09 info: Servidor listo en puerto 8088
+2024-08-15 13:07:15 info: Mongo DB Conectado
+2024-08-15 13:07:15 info: Servidor listo en puerto 8088
+2024-08-15 13:07:21 info: Mongo DB Conectado
+2024-08-15 13:07:21 info: Servidor listo en puerto 8088
+2024-08-15 13:07:28 info: Mongo DB Conectado
+2024-08-15 13:07:28 info: Servidor listo en puerto 8088
+2024-08-15 13:07:36 info: Mongo DB Conectado
+2024-08-15 13:07:36 info: Servidor listo en puerto 8088
+2024-08-15 13:07:39 info: Mongo DB Conectado
+2024-08-15 13:07:39 info: Servidor listo en puerto 8088
+2024-08-15 13:07:45 info: Mongo DB Conectado
+2024-08-15 13:07:45 info: Servidor listo en puerto 8088
+2024-08-15 13:07:47 info: Mongo DB Conectado
+2024-08-15 13:07:47 info: Servidor listo en puerto 8088
+2024-08-15 13:07:49 info: Mongo DB Conectado
+2024-08-15 13:07:49 info: Servidor listo en puerto 8088
+2024-08-15 13:07:52 info: Mongo DB Conectado
+2024-08-15 13:07:52 info: Servidor listo en puerto 8088
+2024-08-15 13:07:53 info: Mongo DB Conectado
+2024-08-15 13:07:53 info: Servidor listo en puerto 8088
+2024-08-15 13:07:54 info: Mongo DB Conectado
+2024-08-15 13:07:54 info: Servidor listo en puerto 8088
+2024-08-15 13:07:56 info: Mongo DB Conectado
+2024-08-15 13:07:56 info: Servidor listo en puerto 8088
+2024-08-15 13:07:58 info: Mongo DB Conectado
+2024-08-15 13:07:58 info: Servidor listo en puerto 8088
+2024-08-15 13:08:01 info: Mongo DB Conectado
+2024-08-15 13:08:01 info: Servidor listo en puerto 8088
+2024-08-15 13:08:05 info: Mongo DB Conectado
+2024-08-15 13:08:05 info: Servidor listo en puerto 8088
+2024-08-15 13:08:08 info: Mongo DB Conectado
+2024-08-15 13:08:08 info: Servidor listo en puerto 8088
+2024-08-15 13:08:10 info: Mongo DB Conectado
+2024-08-15 13:08:11 info: Servidor listo en puerto 8088
+2024-08-15 13:08:12 info: Mongo DB Conectado
+2024-08-15 13:08:12 info: Servidor listo en puerto 8088
+2024-08-15 13:08:14 info: Mongo DB Conectado
+2024-08-15 13:08:14 info: Servidor listo en puerto 8088
+2024-08-15 13:08:18 info: Mongo DB Conectado
+2024-08-15 13:08:18 info: Servidor listo en puerto 8088
+2024-08-15 13:08:22 info: Mongo DB Conectado
+2024-08-15 13:08:22 info: Servidor listo en puerto 8088
+2024-08-15 13:08:26 info: Mongo DB Conectado
+2024-08-15 13:08:26 info: Servidor listo en puerto 8088
+2024-08-15 13:08:29 info: Mongo DB Conectado
+2024-08-15 13:08:29 info: Servidor listo en puerto 8088
+2024-08-15 13:08:38 info: Mongo DB Conectado
+2024-08-15 13:08:38 info: Servidor listo en puerto 8088
+2024-08-15 13:08:40 info: Mongo DB Conectado
+2024-08-15 13:08:40 info: Servidor listo en puerto 8088
+2024-08-15 13:08:43 info: Mongo DB Conectado
+2024-08-15 13:08:43 info: Servidor listo en puerto 8088
+2024-08-15 13:08:49 info: Mongo DB Conectado
+2024-08-15 13:08:49 info: Servidor listo en puerto 8088
+2024-08-15 13:09:06 info: Mongo DB Conectado
+2024-08-15 13:09:06 info: Servidor listo en puerto 8088
+2024-08-15 13:09:09 info: Mongo DB Conectado
+2024-08-15 13:09:09 info: Servidor listo en puerto 8088
+2024-08-15 13:09:11 info: Mongo DB Conectado
+2024-08-15 13:09:11 info: Servidor listo en puerto 8088
+2024-08-15 13:09:16 info: Mongo DB Conectado
+2024-08-15 13:09:16 info: Servidor listo en puerto 8088
+2024-08-15 13:09:39 info: Mongo DB Conectado
+2024-08-15 13:09:39 info: Servidor listo en puerto 8088
+2024-08-15 13:09:42 info: Mongo DB Conectado
+2024-08-15 13:09:42 info: Servidor listo en puerto 8088
+2024-08-15 13:10:07 info: Mongo DB Conectado
+2024-08-15 13:10:07 info: Servidor listo en puerto 8088
+2024-08-15 13:10:08 info: Mongo DB Conectado
+2024-08-15 13:10:08 info: Servidor listo en puerto 8088
+2024-08-15 13:10:14 info: Mongo DB Conectado
+2024-08-15 13:10:14 info: Servidor listo en puerto 8088
+2024-08-15 13:10:26 info: Mongo DB Conectado
+2024-08-15 13:10:26 info: Servidor listo en puerto 8088
+2024-08-15 13:12:00 info: Mongo DB Conectado
+2024-08-15 13:12:00 info: Servidor listo en puerto 8088
+2024-08-15 13:12:05 info: Mongo DB Conectado
+2024-08-15 13:12:05 info: Servidor listo en puerto 8088
+2024-08-15 13:12:08 info: Mongo DB Conectado
+2024-08-15 13:12:08 info: Servidor listo en puerto 8088
+2024-08-15 13:12:11 info: Mongo DB Conectado
+2024-08-15 13:12:11 info: Servidor listo en puerto 8088
+2024-08-15 13:12:13 info: Mongo DB Conectado
+2024-08-15 13:12:13 info: Servidor listo en puerto 8088
+2024-08-15 13:12:15 info: Mongo DB Conectado
+2024-08-15 13:12:15 info: Servidor listo en puerto 8088
+2024-08-15 13:12:26 info: Mongo DB Conectado
+2024-08-15 13:12:26 info: Servidor listo en puerto 8088
+2024-08-15 13:12:29 info: Mongo DB Conectado
+2024-08-15 13:12:29 info: Servidor listo en puerto 8088
+2024-08-15 13:13:01 info: Mongo DB Conectado
+2024-08-15 13:13:01 info: Servidor listo en puerto 8088
+2024-08-15 13:13:03 info: Mongo DB Conectado
+2024-08-15 13:13:03 info: Servidor listo en puerto 8088
+2024-08-15 13:13:05 info: Mongo DB Conectado
+2024-08-15 13:13:05 info: Servidor listo en puerto 8088
+2024-08-15 13:13:08 info: Mongo DB Conectado
+2024-08-15 13:13:08 info: Servidor listo en puerto 8088
+2024-08-15 13:13:18 info: Mongo DB Conectado
+2024-08-15 13:13:18 info: Servidor listo en puerto 8088
+2024-08-15 13:13:29 info: Mongo DB Conectado
+2024-08-15 13:13:29 info: Servidor listo en puerto 8088
+2024-08-15 13:13:32 info: Mongo DB Conectado
+2024-08-15 13:13:32 info: Servidor listo en puerto 8088
+2024-08-15 13:13:39 info: Mongo DB Conectado
+2024-08-15 13:13:39 info: Servidor listo en puerto 8088
+2024-08-15 13:13:42 info: Mongo DB Conectado
+2024-08-15 13:13:42 info: Servidor listo en puerto 8088
+2024-08-15 13:13:45 info: Mongo DB Conectado
+2024-08-15 13:13:45 info: Servidor listo en puerto 8088
+2024-08-15 13:13:50 info: Mongo DB Conectado
+2024-08-15 13:13:50 info: Servidor listo en puerto 8088
+2024-08-15 13:14:33 info: Mongo DB Conectado
+2024-08-15 13:14:33 info: Servidor listo en puerto 8088
+2024-08-15 13:14:34 info: Mongo DB Conectado
+2024-08-15 13:14:34 info: Servidor listo en puerto 8088
+2024-08-15 13:14:38 info: Mongo DB Conectado
+2024-08-15 13:14:38 info: Servidor listo en puerto 8088
+2024-08-15 13:14:45 info: Mongo DB Conectado
+2024-08-15 13:14:45 info: Servidor listo en puerto 8088
+2024-08-15 13:14:48 info: Mongo DB Conectado
+2024-08-15 13:14:48 info: Servidor listo en puerto 8088
+2024-08-15 13:15:19 info: Mongo DB Conectado
+2024-08-15 13:15:19 info: Servidor listo en puerto 8088
+2024-08-15 13:15:21 info: Mongo DB Conectado
+2024-08-15 13:15:21 info: Servidor listo en puerto 8088
+2024-08-15 13:15:26 info: Mongo DB Conectado
+2024-08-15 13:15:26 info: Servidor listo en puerto 8088
+2024-08-15 13:15:29 info: Mongo DB Conectado
+2024-08-15 13:15:30 info: Servidor listo en puerto 8088
+2024-08-15 13:15:46 info: Mongo DB Conectado
+2024-08-15 13:15:46 info: Servidor listo en puerto 8088
+2024-08-15 13:15:54 info: Mongo DB Conectado
+2024-08-15 13:15:54 info: Servidor listo en puerto 8088
+2024-08-15 13:16:11 info: Mongo DB Conectado
+2024-08-15 13:16:11 info: Servidor listo en puerto 8088
+2024-08-15 13:16:13 info: Mongo DB Conectado
+2024-08-15 13:16:13 info: Servidor listo en puerto 8088
+2024-08-15 13:16:17 info: Mongo DB Conectado
+2024-08-15 13:16:17 info: Servidor listo en puerto 8088
+2024-08-15 13:16:25 info: Mongo DB Conectado
+2024-08-15 13:16:25 info: Servidor listo en puerto 8088
+2024-08-15 13:16:27 info: Mongo DB Conectado
+2024-08-15 13:16:27 info: Servidor listo en puerto 8088
+2024-08-15 13:16:29 info: Mongo DB Conectado
+2024-08-15 13:16:29 info: Servidor listo en puerto 8088
+2024-08-15 13:16:30 info: Mongo DB Conectado
+2024-08-15 13:16:30 info: Servidor listo en puerto 8088
+2024-08-15 13:16:37 info: Mongo DB Conectado
+2024-08-15 13:16:37 info: Servidor listo en puerto 8088
+2024-08-15 13:17:44 info: Mongo DB Conectado
+2024-08-15 13:17:44 info: Servidor listo en puerto 8088
+2024-08-15 13:17:48 info: Mongo DB Conectado
+2024-08-15 13:17:48 info: Servidor listo en puerto 8088
+2024-08-15 13:17:52 info: Mongo DB Conectado
+2024-08-15 13:17:52 info: Servidor listo en puerto 8088
+2024-08-15 13:18:03 info: Mongo DB Conectado
+2024-08-15 13:18:03 info: Servidor listo en puerto 8088
+2024-08-15 13:18:05 info: Mongo DB Conectado
+2024-08-15 13:18:05 info: Servidor listo en puerto 8088
+2024-08-15 13:18:11 info: Mongo DB Conectado
+2024-08-15 13:18:11 info: Servidor listo en puerto 8088
+2024-08-15 13:18:12 info: Mongo DB Conectado
+2024-08-15 13:18:12 info: Servidor listo en puerto 8088
+2024-08-15 13:18:48 info: Mongo DB Conectado
+2024-08-15 13:18:48 info: Servidor listo en puerto 8088
+2024-08-15 13:20:03 info: Mongo DB Conectado
+2024-08-15 13:20:03 info: Servidor listo en puerto 8088
+2024-08-15 13:20:04 info: Mongo DB Conectado
+2024-08-15 13:20:04 info: Servidor listo en puerto 8088
+2024-08-15 13:20:06 info: Mongo DB Conectado
+2024-08-15 13:20:06 info: Servidor listo en puerto 8088
+2024-08-15 13:20:22 info: Mongo DB Conectado
+2024-08-15 13:20:22 info: Servidor listo en puerto 8088
+2024-08-15 13:20:24 info: Mongo DB Conectado
+2024-08-15 13:20:24 info: Servidor listo en puerto 8088
+2024-08-15 13:20:52 info: Mongo DB Conectado
+2024-08-15 13:20:52 info: Servidor listo en puerto 8088
+2024-08-15 13:20:56 info: Mongo DB Conectado
+2024-08-15 13:20:56 info: Servidor listo en puerto 8088
+2024-08-15 13:21:07 info: Mongo DB Conectado
+2024-08-15 13:21:07 info: Servidor listo en puerto 8088
+2024-08-15 13:21:10 info: Mongo DB Conectado
+2024-08-15 13:21:10 info: Servidor listo en puerto 8088
+2024-08-15 13:21:16 info: Mongo DB Conectado
+2024-08-15 13:21:16 info: Servidor listo en puerto 8088
+2024-08-15 13:21:49 info: Mongo DB Conectado
+2024-08-15 13:21:49 info: Servidor listo en puerto 8088
+2024-08-15 13:21:50 info: Mongo DB Conectado
+2024-08-15 13:21:50 info: Servidor listo en puerto 8088
+2024-08-15 13:22:10 info: Mongo DB Conectado
+2024-08-15 13:22:10 info: Servidor listo en puerto 8088
+2024-08-15 13:22:12 info: Mongo DB Conectado
+2024-08-15 13:22:12 info: Servidor listo en puerto 8088
+2024-08-15 13:22:16 info: Mongo DB Conectado
+2024-08-15 13:22:16 info: Servidor listo en puerto 8088
+2024-08-15 13:22:21 info: Mongo DB Conectado
+2024-08-15 13:22:21 info: Servidor listo en puerto 8088
+2024-08-15 13:22:28 info: Mongo DB Conectado
+2024-08-15 13:22:28 info: Servidor listo en puerto 8088
+2024-08-15 13:22:31 info: Mongo DB Conectado
+2024-08-15 13:22:31 info: Servidor listo en puerto 8088
+2024-08-15 13:22:33 info: Mongo DB Conectado
+2024-08-15 13:22:33 info: Servidor listo en puerto 8088
+2024-08-15 13:22:47 info: Mongo DB Conectado
+2024-08-15 13:22:47 info: Servidor listo en puerto 8088
+2024-08-15 13:22:49 info: Mongo DB Conectado
+2024-08-15 13:22:49 info: Servidor listo en puerto 8088
+2024-08-15 13:22:52 info: Mongo DB Conectado
+2024-08-15 13:22:52 info: Servidor listo en puerto 8088
+2024-08-15 13:22:56 info: Mongo DB Conectado
+2024-08-15 13:22:56 info: Servidor listo en puerto 8088
+2024-08-15 13:23:09 info: Mongo DB Conectado
+2024-08-15 13:23:09 info: Servidor listo en puerto 8088
+2024-08-15 13:23:10 info: Mongo DB Conectado
+2024-08-15 13:23:10 info: Servidor listo en puerto 8088
+2024-08-15 13:23:22 info: Mongo DB Conectado
+2024-08-15 13:23:22 info: Servidor listo en puerto 8088
+2024-08-15 13:23:24 info: Mongo DB Conectado
+2024-08-15 13:23:24 info: Servidor listo en puerto 8088
+2024-08-15 13:23:58 info: Mongo DB Conectado
+2024-08-15 13:23:58 info: Servidor listo en puerto 8088
+2024-08-15 13:24:14 info: Mongo DB Conectado
+2024-08-15 13:24:14 info: Servidor listo en puerto 8088
+2024-08-15 13:24:16 info: Mongo DB Conectado
+2024-08-15 13:24:16 info: Servidor listo en puerto 8088
+2024-08-15 13:24:25 info: Mongo DB Conectado
+2024-08-15 13:24:25 info: Servidor listo en puerto 8088
+2024-08-15 13:24:28 info: Mongo DB Conectado
+2024-08-15 13:24:28 info: Servidor listo en puerto 8088
+2024-08-15 13:24:51 info: Mongo DB Conectado
+2024-08-15 13:24:51 info: Servidor listo en puerto 8088
+2024-08-15 13:24:53 info: Mongo DB Conectado
+2024-08-15 13:24:53 info: Servidor listo en puerto 8088
+2024-08-15 13:25:19 info: Mongo DB Conectado
+2024-08-15 13:25:19 info: Servidor listo en puerto 8088
+2024-08-15 13:25:20 info: Mongo DB Conectado
+2024-08-15 13:25:20 info: Servidor listo en puerto 8088
+2024-08-15 13:25:21 info: Mongo DB Conectado
+2024-08-15 13:25:21 info: Servidor listo en puerto 8088
+2024-08-15 13:25:24 info: Mongo DB Conectado
+2024-08-15 13:25:24 info: Servidor listo en puerto 8088
+2024-08-15 13:25:29 info: Mongo DB Conectado
+2024-08-15 13:25:30 info: Servidor listo en puerto 8088
+2024-08-15 13:26:05 info: Mongo DB Conectado
+2024-08-15 13:26:05 info: Servidor listo en puerto 8088
+2024-08-15 13:26:14 info: Mongo DB Conectado
+2024-08-15 13:26:14 info: Servidor listo en puerto 8088
+2024-08-15 13:26:15 info: Mongo DB Conectado
+2024-08-15 13:26:15 info: Servidor listo en puerto 8088
+2024-08-15 13:26:24 info: Mongo DB Conectado
+2024-08-15 13:26:24 info: Servidor listo en puerto 8088
+2024-08-15 13:26:25 info: Mongo DB Conectado
+2024-08-15 13:26:25 info: Servidor listo en puerto 8088
+2024-08-15 13:26:28 info: Mongo DB Conectado
+2024-08-15 13:26:28 info: Servidor listo en puerto 8088
+2024-08-15 13:26:29 info: Mongo DB Conectado
+2024-08-15 13:26:29 info: Servidor listo en puerto 8088
+2024-08-15 13:26:30 info: Mongo DB Conectado
+2024-08-15 13:26:30 info: Servidor listo en puerto 8088
+2024-08-15 13:26:33 info: Mongo DB Conectado
+2024-08-15 13:26:33 info: Servidor listo en puerto 8088
+2024-08-15 13:26:38 info: Mongo DB Conectado
+2024-08-15 13:26:38 info: Servidor listo en puerto 8088
+2024-08-15 13:26:41 info: Mongo DB Conectado
+2024-08-15 13:26:41 info: Servidor listo en puerto 8088
+2024-08-15 13:26:47 info: Mongo DB Conectado
+2024-08-15 13:26:47 info: Servidor listo en puerto 8088
+2024-08-15 13:26:52 info: Mongo DB Conectado
+2024-08-15 13:26:52 info: Servidor listo en puerto 8088
+2024-08-15 13:27:20 info: Mongo DB Conectado
+2024-08-15 13:27:20 info: Servidor listo en puerto 8088
+2024-08-15 13:27:24 info: Mongo DB Conectado
+2024-08-15 13:27:24 info: Servidor listo en puerto 8088
+2024-08-15 13:28:28 info: Mongo DB Conectado
+2024-08-15 13:28:28 info: Servidor listo en puerto 8088
+2024-08-15 13:28:31 info: Mongo DB Conectado
+2024-08-15 13:28:31 info: Servidor listo en puerto 8088
+2024-08-15 13:28:34 info: Mongo DB Conectado
+2024-08-15 13:28:34 info: Servidor listo en puerto 8088
+2024-08-15 13:28:43 info: Mongo DB Conectado
+2024-08-15 13:28:43 info: Servidor listo en puerto 8088
+2024-08-15 13:28:45 info: Mongo DB Conectado
+2024-08-15 13:28:45 info: Servidor listo en puerto 8088
+2024-08-15 13:28:51 info: Mongo DB Conectado
+2024-08-15 13:28:51 info: Servidor listo en puerto 8088
+2024-08-15 13:28:54 info: Mongo DB Conectado
+2024-08-15 13:28:54 info: Servidor listo en puerto 8088
+2024-08-15 13:29:41 info: Mongo DB Conectado
+2024-08-15 13:29:41 info: Servidor listo en puerto 8088
+2024-08-15 13:29:42 info: Mongo DB Conectado
+2024-08-15 13:29:42 info: Servidor listo en puerto 8088
+2024-08-15 13:29:44 info: Mongo DB Conectado
+2024-08-15 13:29:44 info: Servidor listo en puerto 8088
+2024-08-15 13:29:49 info: Mongo DB Conectado
+2024-08-15 13:29:49 info: Servidor listo en puerto 8088
+2024-08-15 13:29:50 info: Mongo DB Conectado
+2024-08-15 13:29:50 info: Servidor listo en puerto 8088
+2024-08-15 13:29:53 info: Mongo DB Conectado
+2024-08-15 13:29:53 info: Servidor listo en puerto 8088
+2024-08-15 13:29:58 info: Mongo DB Conectado
+2024-08-15 13:29:58 info: Servidor listo en puerto 8088
+2024-08-15 13:30:04 info: Mongo DB Conectado
+2024-08-15 13:30:04 info: Servidor listo en puerto 8088
+2024-08-15 13:30:08 info: Mongo DB Conectado
+2024-08-15 13:30:08 info: Servidor listo en puerto 8088
+2024-08-15 13:30:29 info: Mongo DB Conectado
+2024-08-15 13:30:29 info: Servidor listo en puerto 8088
+2024-08-15 13:30:48 info: Mongo DB Conectado
+2024-08-15 13:30:48 info: Servidor listo en puerto 8088
+2024-08-15 13:31:49 info: Mongo DB Conectado
+2024-08-15 13:31:49 info: Servidor listo en puerto 8088
+2024-08-15 13:31:56 info: Mongo DB Conectado
+2024-08-15 13:31:56 info: Servidor listo en puerto 8088
+2024-08-15 13:33:03 info: Mongo DB Conectado
+2024-08-15 13:33:03 info: Servidor listo en puerto 8088
+2024-08-15 13:33:11 info: Mongo DB Conectado
+2024-08-15 13:33:11 info: Servidor listo en puerto 8088
+2024-08-15 13:33:13 info: Mongo DB Conectado
+2024-08-15 13:33:13 info: Servidor listo en puerto 8088
+2024-08-15 13:33:19 info: Mongo DB Conectado
+2024-08-15 13:33:19 info: Servidor listo en puerto 8088
+2024-08-15 13:33:36 info: Mongo DB Conectado
+2024-08-15 13:33:36 info: Servidor listo en puerto 8088
+2024-08-15 13:33:44 info: Mongo DB Conectado
+2024-08-15 13:33:44 info: Servidor listo en puerto 8088
+2024-08-15 13:33:46 info: Mongo DB Conectado
+2024-08-15 13:33:46 info: Servidor listo en puerto 8088
+2024-08-15 13:34:24 info: Mongo DB Conectado
+2024-08-15 13:34:24 info: Servidor listo en puerto 8088
+2024-08-15 13:34:30 info: Mongo DB Conectado
+2024-08-15 13:34:30 info: Servidor listo en puerto 8088
+2024-08-15 13:34:35 info: Mongo DB Conectado
+2024-08-15 13:34:35 info: Servidor listo en puerto 8088
+2024-08-15 13:35:02 info: Mongo DB Conectado
+2024-08-15 13:35:02 info: Servidor listo en puerto 8088
+2024-08-15 13:35:39 info: Mongo DB Conectado
+2024-08-15 13:35:39 info: Servidor listo en puerto 8088
+2024-08-15 13:35:49 info: Mongo DB Conectado
+2024-08-15 13:35:49 info: Servidor listo en puerto 8088
+2024-08-15 13:36:05 info: Mongo DB Conectado
+2024-08-15 13:36:05 info: Servidor listo en puerto 8088
+2024-08-15 13:36:58 info: Mongo DB Conectado
+2024-08-15 13:36:58 info: Servidor listo en puerto 8088
+2024-08-15 13:37:00 info: Mongo DB Conectado
+2024-08-15 13:37:00 info: Servidor listo en puerto 8088
+2024-08-15 13:37:30 info: Mongo DB Conectado
+2024-08-15 13:37:30 info: Servidor listo en puerto 8088
+2024-08-15 13:37:35 info: Mongo DB Conectado
+2024-08-15 13:37:35 info: Servidor listo en puerto 8088
+2024-08-15 13:37:44 info: Mongo DB Conectado
+2024-08-15 13:37:44 info: Servidor listo en puerto 8088
+2024-08-15 13:37:46 info: Mongo DB Conectado
+2024-08-15 13:37:46 info: Servidor listo en puerto 8088
+2024-08-15 13:37:52 info: Mongo DB Conectado
+2024-08-15 13:37:52 info: Servidor listo en puerto 8088
+2024-08-15 13:38:35 info: Mongo DB Conectado
+2024-08-15 13:38:35 info: Servidor listo en puerto 8088
+2024-08-15 13:38:40 info: Mongo DB Conectado
+2024-08-15 13:38:40 info: Servidor listo en puerto 8088
+2024-08-15 13:38:42 info: Mongo DB Conectado
+2024-08-15 13:38:42 info: Servidor listo en puerto 8088
+2024-08-15 13:39:02 info: Mongo DB Conectado
+2024-08-15 13:39:02 info: Servidor listo en puerto 8088
+2024-08-15 13:39:06 info: Mongo DB Conectado
+2024-08-15 13:39:06 info: Servidor listo en puerto 8088
+2024-08-15 13:39:09 info: Mongo DB Conectado
+2024-08-15 13:39:09 info: Servidor listo en puerto 8088
+2024-08-15 13:39:14 info: Mongo DB Conectado
+2024-08-15 13:39:14 info: Servidor listo en puerto 8088
+2024-08-15 13:39:23 info: Mongo DB Conectado
+2024-08-15 13:39:23 info: Servidor listo en puerto 8088
+2024-08-15 13:39:30 info: Mongo DB Conectado
+2024-08-15 13:39:30 info: Servidor listo en puerto 8088
+2024-08-15 13:39:33 info: Mongo DB Conectado
+2024-08-15 13:39:33 info: Servidor listo en puerto 8088
+2024-08-15 13:39:39 info: Mongo DB Conectado
+2024-08-15 13:39:39 info: Servidor listo en puerto 8088
+2024-08-15 13:39:41 info: Mongo DB Conectado
+2024-08-15 13:39:41 info: Servidor listo en puerto 8088
+2024-08-15 13:39:43 info: Mongo DB Conectado
+2024-08-15 13:39:43 info: Servidor listo en puerto 8088
+2024-08-15 13:39:47 info: Mongo DB Conectado
+2024-08-15 13:39:47 info: Servidor listo en puerto 8088
+2024-08-15 13:39:50 info: Mongo DB Conectado
+2024-08-15 13:39:50 info: Servidor listo en puerto 8088
+2024-08-15 13:39:53 info: Mongo DB Conectado
+2024-08-15 13:39:53 info: Servidor listo en puerto 8088
+2024-08-15 13:41:16 info: Mongo DB Conectado
+2024-08-15 13:41:16 info: Servidor listo en puerto 8088
+2024-08-15 13:41:33 info: Mongo DB Conectado
+2024-08-15 13:41:33 info: Servidor listo en puerto 8088
+2024-08-15 13:41:33 info: Mongo DB Conectado
+2024-08-15 13:41:33 info: Servidor listo en puerto 8088
+2024-08-15 13:41:35 info: Mongo DB Conectado
+2024-08-15 13:41:35 info: Servidor listo en puerto 8088
+2024-08-15 13:41:36 info: Mongo DB Conectado
+2024-08-15 13:41:36 info: Servidor listo en puerto 8088
+2024-08-15 13:41:41 info: Mongo DB Conectado
+2024-08-15 13:41:41 info: Servidor listo en puerto 8088
+2024-08-15 13:41:48 info: Mongo DB Conectado
+2024-08-15 13:41:48 info: Servidor listo en puerto 8088
+2024-08-15 13:42:00 info: Mongo DB Conectado
+2024-08-15 13:42:00 info: Servidor listo en puerto 8088
+2024-08-15 13:42:14 info: Mongo DB Conectado
+2024-08-15 13:42:14 info: Servidor listo en puerto 8088
+2024-08-15 13:42:17 info: Mongo DB Conectado
+2024-08-15 13:42:17 info: Servidor listo en puerto 8088
+2024-08-15 13:42:24 info: Mongo DB Conectado
+2024-08-15 13:42:24 info: Servidor listo en puerto 8088
+2024-08-15 13:42:34 info: Mongo DB Conectado
+2024-08-15 13:42:34 info: Servidor listo en puerto 8088
+2024-08-15 13:42:37 info: Mongo DB Conectado
+2024-08-15 13:42:37 info: Servidor listo en puerto 8088
+2024-08-15 13:42:42 info: Mongo DB Conectado
+2024-08-15 13:42:42 info: Servidor listo en puerto 8088
+2024-08-15 13:42:44 info: Mongo DB Conectado
+2024-08-15 13:42:44 info: Servidor listo en puerto 8088
+2024-08-15 13:42:46 info: Mongo DB Conectado
+2024-08-15 13:42:46 info: Servidor listo en puerto 8088
+2024-08-15 13:42:51 info: Mongo DB Conectado
+2024-08-15 13:42:51 info: Servidor listo en puerto 8088
+2024-08-15 13:42:54 info: Mongo DB Conectado
+2024-08-15 13:42:54 info: Servidor listo en puerto 8088
+2024-08-15 13:43:02 info: Mongo DB Conectado
+2024-08-15 13:43:02 info: Servidor listo en puerto 8088
+2024-08-15 13:43:04 info: Mongo DB Conectado
+2024-08-15 13:43:04 info: Servidor listo en puerto 8088
+2024-08-15 13:43:07 info: Mongo DB Conectado
+2024-08-15 13:43:07 info: Servidor listo en puerto 8088
+2024-08-15 13:43:09 info: Mongo DB Conectado
+2024-08-15 13:43:09 info: Servidor listo en puerto 8088
+2024-08-15 13:43:14 info: Mongo DB Conectado
+2024-08-15 13:43:14 info: Servidor listo en puerto 8088
+2024-08-15 13:43:17 info: Mongo DB Conectado
+2024-08-15 13:43:17 info: Servidor listo en puerto 8088
+2024-08-15 13:43:21 info: Mongo DB Conectado
+2024-08-15 13:43:21 info: Servidor listo en puerto 8088
+2024-08-15 13:43:28 info: Mongo DB Conectado
+2024-08-15 13:43:28 info: Servidor listo en puerto 8088
+2024-08-15 13:43:30 info: Mongo DB Conectado
+2024-08-15 13:43:30 info: Servidor listo en puerto 8088
+2024-08-15 13:43:34 info: Mongo DB Conectado
+2024-08-15 13:43:34 info: Servidor listo en puerto 8088
+2024-08-15 13:43:40 info: Mongo DB Conectado
+2024-08-15 13:43:40 info: Servidor listo en puerto 8088
+2024-08-15 13:43:53 info: Mongo DB Conectado
+2024-08-15 13:43:53 info: Servidor listo en puerto 8088
+2024-08-15 13:43:55 info: Mongo DB Conectado
+2024-08-15 13:43:55 info: Servidor listo en puerto 8088
+2024-08-15 13:44:18 info: Mongo DB Conectado
+2024-08-15 13:44:18 info: Servidor listo en puerto 8088
+2024-08-15 13:44:20 info: Mongo DB Conectado
+2024-08-15 13:44:20 info: Servidor listo en puerto 8088
+2024-08-15 13:44:22 info: Mongo DB Conectado
+2024-08-15 13:44:22 info: Servidor listo en puerto 8088
+2024-08-15 13:44:31 info: Mongo DB Conectado
+2024-08-15 13:44:31 info: Servidor listo en puerto 8088
+2024-08-15 13:44:34 info: Mongo DB Conectado
+2024-08-15 13:44:34 info: Servidor listo en puerto 8088
+2024-08-15 13:44:36 info: Mongo DB Conectado
+2024-08-15 13:44:36 info: Servidor listo en puerto 8088
+2024-08-15 13:44:37 info: Mongo DB Conectado
+2024-08-15 13:44:37 info: Servidor listo en puerto 8088
+2024-08-15 13:44:39 info: Mongo DB Conectado
+2024-08-15 13:44:39 info: Servidor listo en puerto 8088
+2024-08-15 13:44:42 info: Mongo DB Conectado
+2024-08-15 13:44:42 info: Servidor listo en puerto 8088
+2024-08-15 13:44:44 info: Mongo DB Conectado
+2024-08-15 13:44:44 info: Servidor listo en puerto 8088
+2024-08-15 13:44:48 info: Mongo DB Conectado
+2024-08-15 13:44:48 info: Servidor listo en puerto 8088
+2024-08-15 13:44:51 info: Mongo DB Conectado
+2024-08-15 13:44:51 info: Servidor listo en puerto 8088
+2024-08-15 13:44:53 info: Mongo DB Conectado
+2024-08-15 13:44:53 info: Servidor listo en puerto 8088
+2024-08-15 13:44:56 info: Mongo DB Conectado
+2024-08-15 13:44:56 info: Servidor listo en puerto 8088
+2024-08-15 13:44:59 info: Mongo DB Conectado
+2024-08-15 13:44:59 info: Servidor listo en puerto 8088
+2024-08-15 13:45:03 info: Mongo DB Conectado
+2024-08-15 13:45:03 info: Servidor listo en puerto 8088
+2024-08-15 13:45:05 info: Mongo DB Conectado
+2024-08-15 13:45:05 info: Servidor listo en puerto 8088
+2024-08-15 13:45:08 info: Mongo DB Conectado
+2024-08-15 13:45:08 info: Servidor listo en puerto 8088
+2024-08-15 13:45:11 info: Mongo DB Conectado
+2024-08-15 13:45:11 info: Servidor listo en puerto 8088
+2024-08-15 13:45:24 info: Mongo DB Conectado
+2024-08-15 13:45:24 info: Servidor listo en puerto 8088
+2024-08-15 13:45:26 info: Mongo DB Conectado
+2024-08-15 13:45:26 info: Servidor listo en puerto 8088
+2024-08-15 13:45:30 info: Mongo DB Conectado
+2024-08-15 13:45:30 info: Servidor listo en puerto 8088
+2024-08-15 13:45:35 info: Mongo DB Conectado
+2024-08-15 13:45:35 info: Servidor listo en puerto 8088
+2024-08-15 13:45:39 info: Mongo DB Conectado
+2024-08-15 13:45:39 info: Servidor listo en puerto 8088
+2024-08-15 13:45:43 info: Mongo DB Conectado
+2024-08-15 13:45:43 info: Servidor listo en puerto 8088
+2024-08-15 13:45:44 info: Mongo DB Conectado
+2024-08-15 13:45:44 info: Servidor listo en puerto 8088
+2024-08-15 13:45:48 info: Mongo DB Conectado
+2024-08-15 13:45:48 info: Servidor listo en puerto 8088
+2024-08-15 13:45:49 info: Mongo DB Conectado
+2024-08-15 13:45:49 info: Servidor listo en puerto 8088
+2024-08-15 13:45:52 info: Mongo DB Conectado
+2024-08-15 13:45:52 info: Servidor listo en puerto 8088
+2024-08-15 13:45:54 info: Mongo DB Conectado
+2024-08-15 13:45:54 info: Servidor listo en puerto 8088
+2024-08-15 13:45:59 info: Mongo DB Conectado
+2024-08-15 13:45:59 info: Servidor listo en puerto 8088
+2024-08-15 13:46:38 info: Mongo DB Conectado
+2024-08-15 13:46:38 info: Servidor listo en puerto 8088
+2024-08-15 13:46:41 info: Mongo DB Conectado
+2024-08-15 13:46:41 info: Servidor listo en puerto 8088
+2024-08-15 13:46:44 info: Mongo DB Conectado
+2024-08-15 13:46:44 info: Servidor listo en puerto 8088
+2024-08-15 13:52:02 info: Mongo DB Conectado
+2024-08-15 13:52:02 info: Servidor listo en puerto 8088
+2024-08-15 13:52:32 info: Mongo DB Conectado
+2024-08-15 13:52:32 info: Servidor listo en puerto 8088
+2024-08-15 13:52:39 info: Mongo DB Conectado
+2024-08-15 13:52:39 info: Servidor listo en puerto 8088
+2024-08-15 13:52:52 info: Mongo DB Conectado
+2024-08-15 13:52:52 info: Servidor listo en puerto 8088
+2024-08-15 13:53:35 error: logger is not defined
+2024-08-15 13:55:18 error: logger is not defined
+2024-08-15 13:55:19 error: logger is not defined
+2024-08-15 13:56:28 info: Mongo DB Conectado
+2024-08-15 13:56:28 info: Servidor listo en puerto 8088
+2024-08-15 13:56:42 info: Mongo DB Conectado
+2024-08-15 13:56:42 info: Servidor listo en puerto 8088
+2024-08-15 13:56:45 error: logger is not defined
+2024-08-15 13:57:10 info: Mongo DB Conectado
+2024-08-15 13:57:10 info: Servidor listo en puerto 8088
+2024-08-15 13:57:13 error: logger is not defined
+2024-08-15 13:57:24 info: Mongo DB Conectado
+2024-08-15 13:57:24 info: Servidor listo en puerto 8088
+2024-08-15 13:58:20 info: Mongo DB Conectado
+2024-08-15 13:58:20 info: Servidor listo en puerto 8088
+2024-08-15 13:58:23 error: logger is not defined
+2024-08-15 13:58:55 info: Mongo DB Conectado
+2024-08-15 13:58:55 info: Servidor listo en puerto 8088
+2024-08-15 14:00:11 info: Mongo DB Conectado
+2024-08-15 14:00:11 info: Servidor listo en puerto 8088
+2024-08-15 14:00:15 error: logger is not defined
+2024-08-15 14:17:36 info: Mongo DB Conectado
+2024-08-15 14:17:36 info: Servidor listo en puerto 8088
+2024-08-15 14:17:58 info: Mongo DB Conectado
+2024-08-15 14:17:58 info: Servidor listo en puerto 8088
+2024-08-15 14:18:19 info: Mongo DB Conectado
+2024-08-15 14:18:19 info: Servidor listo en puerto 8088
+2024-08-15 14:18:30 info: Mongo DB Conectado
+2024-08-15 14:18:30 info: Servidor listo en puerto 8088
+2024-08-15 14:18:36 info: Mongo DB Conectado
+2024-08-15 14:18:36 info: Servidor listo en puerto 8088
+2024-08-15 14:19:14 info: Mongo DB Conectado
+2024-08-15 14:19:14 info: Servidor listo en puerto 8088
+2024-08-15 14:19:20 error: Authentication error:
+2024-08-15 14:22:45 error: Authentication error:
+2024-08-15 14:22:52 error: Authentication error:
+2024-08-15 14:27:33 info: Mongo DB Conectado
+2024-08-15 14:27:33 info: Servidor listo en puerto 8088
+2024-08-15 14:27:43 error: Authentication error:
+2024-08-15 14:27:49 error: Authentication error:
+2024-08-16 09:00:14 info: Mongo DB Conectado
+2024-08-16 09:00:14 info: Servidor listo en puerto 8088
+2024-08-16 09:00:36 error: Authentication error:
+2024-08-16 09:02:56 error: Authentication error:
+2024-08-16 09:04:55 error: Authentication error:
+2024-08-16 09:05:01 error: Authentication error:
+2024-08-16 09:05:01 error: Class constructor isUserCart cannot be invoked without 'new'
+2024-08-16 09:13:03 info: Mongo DB Conectado
+2024-08-16 09:13:03 info: Servidor listo en puerto 8088
+2024-08-16 09:13:09 error: Authentication error:
+2024-08-16 09:13:15 error: Authentication error:
+2024-08-16 09:13:56 error: Authentication error:
+2024-08-16 09:14:50 error: Authentication error:
+2024-08-16 09:14:54 error: Authentication error:
+2024-08-16 09:15:22 info: Mongo DB Conectado
+2024-08-16 09:15:22 info: Servidor listo en puerto 8088
+2024-08-16 09:15:23 error: Authentication error:
+2024-08-16 09:15:36 info: Mongo DB Conectado
+2024-08-16 09:15:36 info: Servidor listo en puerto 8088
+2024-08-16 09:15:41 info: Mongo DB Conectado
+2024-08-16 09:15:41 info: Servidor listo en puerto 8088
+2024-08-16 09:15:42 error: Authentication error:
+2024-08-16 09:23:40 info: Mongo DB Conectado
+2024-08-16 09:23:40 info: Servidor listo en puerto 8088
+2024-08-16 09:23:56 error: Authentication error:
+2024-08-16 09:24:09 error: Authentication error:
+2024-08-16 09:24:10 error: Authentication error:

@@ -5,9 +5,9 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "start": "node ./app.js",
     "dev": "npx nodemon ./src/app.js",
-    "test": "nodemon ./app.js"
+    "test": "nodemon ./app.js",
+    "start": "node ./src/app.js"
   },
   "keywords": [],
   "author": "",

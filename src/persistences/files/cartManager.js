@@ -1,4 +1,5 @@
 import fs from "fs";
+import { logger } from "../utils/logger.js"
 
 
 class CartManager {
@@ -14,7 +15,7 @@ class CartManager {
       this.carts = JSON.parse(cartsJson) || [];
       return this.carts;
     } catch (error) {
-      console.error('Error al obtener los carritos:', error);
+      logger.error('Error al obtener los carritos:', error);
       return []; // o manejar el error de otra manera según sea apropiado para tu aplicación
     }
   }
@@ -33,11 +34,11 @@ class CartManager {
 
         await fs.promises.writeFile(this.path, JSON.stringify(this.carts)); // Guardar la lista actualizada de carritos
 
-        console.log("Tu nuevo carrito ha sido creado con éxito.");
+        logger.log("Tu nuevo carrito ha sido creado con éxito.");
         
         return newCart; // Devolver el nuevo carrito creado
     } catch (error) {
-        console.error("Error al crear el carrito:", error);
+        logger.error("Error al crear el carrito:", error);
         throw error; // Re-lanzar el error para que pueda ser manejado externamente si es necesario
     }
 }

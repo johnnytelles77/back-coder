@@ -5,6 +5,8 @@ import google from "passport-google-oauth20"
 import jwt from "passport-jwt";
 import envs from "./env.config.js"
 import UserRepository from "../persistences/mongo/repositories/user.repository.js";
+import CartsRepository from "../persistences/mongo/repositories/carts.repository.js";
+
 
 const localStrategy = local.Strategy;
 const GoogleStrategy = google.Strategy;
@@ -32,13 +34,17 @@ const initializePassport = () => {
                     const { first_name, last_name, email, age, role } = req.body;
                     const user = await UserRepository.getByEmail(username);
                     if (user) return done(null, false, { message: "El usuario ya existe" });
+
+                    const cart = await CartsRepository.create();
+
                     const newUser = {
                         first_name,
                         last_name,
                         email,
                         age,
                         password: createHash(password),
-                        role
+                        role,
+                        cart: cart._id
                     }
                     const createUser = await UserRepository.create(newUser);
                     return done(null, createUser)

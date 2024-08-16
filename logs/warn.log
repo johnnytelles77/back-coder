@@ -6,3 +6,31 @@
 2024-08-10 13:50:22 error: Internal Server Error
 2024-08-10 13:51:25 error: Cast to ObjectId failed for value "66434045700c9e3a6cdbe7b89" (type string) at path "_id" for model "products"
 2024-08-10 14:00:33 error: Cast to ObjectId failed for value "66434045700c9e3a6cdbe7b89" (type string) at path "_id" for model "products"
+2024-08-15 09:05:22 error: Cast to ObjectId failed for value "66434045700c9e3a6cdbe7b89" (type string) at path "_id" for model "products"
+2024-08-15 13:53:35 error: logger is not defined
+2024-08-15 13:55:18 error: logger is not defined
+2024-08-15 13:55:19 error: logger is not defined
+2024-08-15 13:56:45 error: logger is not defined
+2024-08-15 13:57:13 error: logger is not defined
+2024-08-15 13:58:23 error: logger is not defined
+2024-08-15 14:00:15 error: logger is not defined
+2024-08-15 14:19:20 error: Authentication error:
+2024-08-15 14:22:45 error: Authentication error:
+2024-08-15 14:22:52 error: Authentication error:
+2024-08-15 14:27:43 error: Authentication error:
+2024-08-15 14:27:49 error: Authentication error:
+2024-08-16 09:00:36 error: Authentication error:
+2024-08-16 09:02:56 error: Authentication error:
+2024-08-16 09:04:55 error: Authentication error:
+2024-08-16 09:05:01 error: Authentication error:
+2024-08-16 09:05:01 error: Class constructor isUserCart cannot be invoked without 'new'
+2024-08-16 09:13:09 error: Authentication error:
+2024-08-16 09:13:15 error: Authentication error:
+2024-08-16 09:13:56 error: Authentication error:
+2024-08-16 09:14:50 error: Authentication error:
+2024-08-16 09:14:54 error: Authentication error:
+2024-08-16 09:15:23 error: Authentication error:
+2024-08-16 09:15:42 error: Authentication error:
+2024-08-16 09:23:56 error: Authentication error:
+2024-08-16 09:24:09 error: Authentication error:
+2024-08-16 09:24:10 error: Authentication error:

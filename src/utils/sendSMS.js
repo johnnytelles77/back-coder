@@ -16,7 +16,7 @@ class SMS {
             })
             
         } catch (error) {
-            console.log(error)
+            logger.log(error)
             
         }
     }

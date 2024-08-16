@@ -9,6 +9,6 @@ export const connectMongoDB = async () =>{
         mongoose.connect(envs.MONGO_URL);
         logger.info("Mongo DB Conectado")
     } catch (error) {
-        console.log(error)
+        logger.log(error)
     }
 }

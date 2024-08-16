@@ -17,7 +17,11 @@ class UserModel {
         type: String,
         enum: ["user", "admin"],
         default: "user"
-      }
+      },
+      cart: { 
+        type: mongoose.Schema.Types.ObjectId, 
+        ref: "carts"
+      },
     });
 
     this.userModel = mongoose.model(userCollection, userSchema);
@@ -29,5 +33,3 @@ class UserModel {
 }
 
 export default new UserModel();
-
-

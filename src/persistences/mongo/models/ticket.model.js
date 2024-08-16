@@ -13,13 +13,13 @@ class Ticket {
             },
             purchase_datatime: {
                 type: Date,
-                deafault: Date.now()
+                deafault: Date.now
             },
             amount: {
-                tyoe: Number,
+                type: Number,
                 required: true
             },
-            pruchaser: {
+            purchaser: {
                 type: String,
                 required: true,
             }
