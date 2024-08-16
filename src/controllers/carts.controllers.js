@@ -19,9 +19,7 @@ class CartController {
             const { cid, pid } = req.params;
             const cart = await CartService.addProductToCart(cid, pid);
 
-            if (!cart.product) {
-                return res.status(404).json({ status: "Error", msg: `No se encontró el producto con el id ${pid}` });
-            }
+
             res.status(200).json({ status: "success", payload: cart });
         } catch (error) {
             logger.error(error);

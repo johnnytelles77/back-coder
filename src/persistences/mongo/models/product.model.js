@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import mongoosePaginate from "mongoose-paginate-v2"
+import mongoosePaginate from "mongoose-paginate-v2";
 
 class Product {
   constructor() {
@@ -8,11 +8,11 @@ class Product {
     this.productSchema = new mongoose.Schema({
       title: {
         type: String,
-        require: true,
+        required: true, 
       },
       description: {
         type: String,
-        require: true,
+        required: true, 
       },
       thumbnail: {
         type: Array,
@@ -20,11 +20,11 @@ class Product {
       },
       code: {
         type: String,
-        require: true,
+        required: true, 
       },
       stock: {
         type: Number,
-        require: true,
+        required: true, 
       },
       status: {
         type: Boolean,
@@ -32,20 +32,19 @@ class Product {
       },
       price: {
         type: Number,
-        require: true,
+        required: true, 
       },
       category: {
         type: String,
-        require: true
+        required: true 
       }
     });
 
-    this.productSchema.plugin(mongoosePaginate)
+    this.productSchema.plugin(mongoosePaginate);
 
     this.productModel = mongoose.model(this.productCollection, this.productSchema);
   }
 }
-
 
 const productInstance = new Product(); // Creamos una instancia de la clase Product
 export default productInstance.productModel; 
