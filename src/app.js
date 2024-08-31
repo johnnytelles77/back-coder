@@ -10,6 +10,10 @@ import envs from "./config/env.config.js"
 import cors from "cors"
 import Errors from "./errors/errorHandle.js";
 import { logger } from "./utils/logger.js";
+import swaggerUi from 'swagger-ui-express';
+import { specs } from "./config/swagger.config.js";
+
+
 
 
 connectMongoDB();
@@ -37,6 +41,10 @@ app.use(passport.initialize())
 app.use(passport.session())
 initializePassport();
 app.use(cors());
+
+
+
+app.use("/api/docs", swaggerUi.serve, swaggerUi.setup(specs));
 
 app.use("/api", router);
 

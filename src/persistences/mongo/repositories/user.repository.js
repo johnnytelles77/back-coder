@@ -4,7 +4,7 @@ const userModel = UserModel.getModel();
 
 class UserRepository {
     static async getAll(query, options) {
-        const products = await userModel.paginate(query, options);
+        const products = await userModel.find(query, options);
         return products;
     }
 

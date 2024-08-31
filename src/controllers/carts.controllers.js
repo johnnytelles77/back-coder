@@ -30,7 +30,7 @@ class CartController {
     static async getCartById(req, res) {
         try {
             const { cid } = req.params;
-            const cart = await CartService.getById(id);
+            const cart = await CartService.getCartById(cid);
             if (!cart) {
                 return res.status(404).json({ status: "Error", msg: `No se encontró el carrito con el id ${cid}` });
             }

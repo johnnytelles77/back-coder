@@ -43,3 +43,10 @@
 2024-08-16 09:23:56 error: Authentication error:
 2024-08-16 09:24:09 error: Authentication error:
 2024-08-16 09:24:10 error: Authentication error:
+2024-08-16 15:16:29 error: undefined
+2024-08-16 15:17:47 error: undefined
+2024-08-16 15:23:04 error: undefined
+2024-08-24 11:34:02 error: Bad Request
+2024-08-24 12:23:32 error: Cast to ObjectId failed for value "ojdddd" (type string) at path "_id" for model "products"
+2024-08-24 12:23:45 error: Cast to ObjectId failed for value "ojdddd" (type string) at path "_id" for model "products"
+2024-08-24 12:24:19 error: Cast to ObjectId failed for value "66433e9079ad1021ab6c7f" (type string) at path "_id" for model "products"
