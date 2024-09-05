@@ -46,11 +46,15 @@ class ProductController {
 
     static async create(req, res, next) {
         try {
-            logger.log("Agregando un nuevo producto...");
+            // Si tu logger requiere un nivel de log, utiliza algo como "info" o "debug"
+            logger.info("Agregando un nuevo producto...");
+    
             const product = req.body;
-            logger.log("Datos del nuevo producto:", product);
+            logger.info("Datos del nuevo producto:", product);
+    
             const newProduct = await ProductService.create(product);
-            logger.log("Producto agregado:", newProduct);
+            logger.info("Producto agregado:", newProduct);
+    
             res.status(201).json({ status: "success", payload: newProduct });
         } catch (error) {
             logger.error("Error al agregar un nuevo producto:", error);
@@ -61,17 +65,24 @@ class ProductController {
     static async update(req, res, next) {
         try {
             const { pid } = req.params;
-            logger.log(`Actualizando producto con ID: ${pid}`);
+            logger.log('info', `Actualizando producto con ID: ${pid}`);
+            
             const productData = req.body;
-            logger.log("Nuevos datos del producto:", productData);
+            logger.log('info', `Nuevos datos del producto: ${JSON.stringify(productData)}`);
+    
             const updateProduct = await ProductService.update(pid, productData);
-            if (!updateProduct) return res.status(404).json({ status: "Error", msg: `Producto con el id ${pid} no encontrado` });
+    
+            if (!updateProduct) {
+                return res.status(404).json({ status: "Error", msg: `Producto con el id ${pid} no encontrado` });
+            }
+    
             res.status(200).json({ status: "success", payload: updateProduct });
         } catch (error) {
             logger.error(`Error al actualizar producto con ID ${pid}:`, error);
             next(error);
         }
     }
+    
 
     static async deleteOne(req, res, next) {
         try {

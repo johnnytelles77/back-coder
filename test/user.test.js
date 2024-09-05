@@ -18,6 +18,7 @@ describe("Test User Repository", () => {
     })
 
     let userId;
+    let userEmail
 
     it("Crear un usuario", async () => {
         const newUser = {
@@ -30,6 +31,7 @@ describe("Test User Repository", () => {
 
         const user = await UserRepository.create(newUser);
         userId = user._id;
+        userEmail = user.email;
 
         expect(user.first_name).to.be.equal("User Test")
         expect(user.last_name).to.be.equal("Test")
@@ -49,12 +51,12 @@ describe("Test User Repository", () => {
 
 
     it("Obtener un usuario por email", async () => {
-        const user = await UserRepository.getByEmail(userEmail)
+        const user = await UserRepository.getByEmail(userEmail);
         expect(user).to.be.an("object");
-        expect(user.email).to.be.equal("User-test@test.com");
-        expect(user.password).to.not.equal("dadsfsg");
-        expect(user.password).to.not.equal("number");
-    })
+        expect(user.email).to.equal("User-test@test.com");
+        expect(user.password).to.not.equal("dsfafasdf");
+        expect(user.password).to.not.an("number");
+    });
 
 
 
@@ -67,8 +69,14 @@ describe("Test User Repository", () => {
         expect(user.first_name).to.be.equal("User Update")
         expect(user.last_name).to.be.equal("Update")
         expect(user.age).to.not.equal(22)
-
     })
+
+    it("Eliminar un usuario por id", async () => {
+        await UserRepository.deleteOne(userId);
+        const user = await UserRepository.getById(userId);
+        expect(user).to.be.null;
+    }); 
+    
 
     after( async () => {
         console.log("Se ejecuta al finalizar los test")
@@ -76,10 +84,10 @@ describe("Test User Repository", () => {
         mongoose.disconnect();
     })
 
-/*     afterEach(() => {
+/*      afterEach(() => {
         console.log("Se ejecuta al finalizar cada test")
         mongoose.disconnect();
     }) */
 
 
-})
+}) 
