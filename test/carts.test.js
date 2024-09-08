@@ -37,15 +37,14 @@ describe("Cart Test", () => {
 
     // Creamos un producto para agregar al carrito
     const newProduct = {
-      title: "Prueba",
-      description: "Esta es una prueba",
-      price: 35000,
-      thumbnail: ["http://www.ropacanchera.com/prueba"],
-      code: "CGTP1250",
-      category: "Pruebas",
-      stock: 5,
+        title: "Producto Test",
+        description: "Este es un producto test",
+        price: 9100,
+        thumbnail: "http://www.google.com",
+        code: "ADF",
+        stock: 20,
+        category: "Electronics"
     };
-
     const productResponse = await requester
       .post("/api/products")
       .send(newProduct)
@@ -58,12 +57,16 @@ describe("Cart Test", () => {
     const { status, body, ok } = await requester
       .post(`/api/carts/${cartId}/product/${productId}`)
       .set("Cookie", `${cookie.name}=${cookie.value}`);
+      console.log(`Status: ${status}, Body:`, body);
 
     expect(status).to.equal(200);
     expect(ok).to.be.true;
     expect(body).to.have.property("status", "Success");
     expect(body.payload).to.have.property("_id", cartId);
     expect(body.payload.products).to.be.an("array");
+    expect(productId).to.exist;
+    expect(productId).to.be.a('string');
+
 
     // Verificamos que el producto fue agregado correctamente al carrito
     const productInCart = body.payload.products.find((p) => p.product._id === productId);
